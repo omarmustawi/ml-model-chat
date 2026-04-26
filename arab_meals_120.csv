@@ -1,0 +1,350 @@
+Goal,Meal Type,Name,Calories,ProteinContent,CarbohydrateContent,FatContent,Ingredients,Cuisine
+Muscle Gain,Breakfast,Foul Medames with Olive Oil and Whole Wheat Bread,430,18,48,16,"fava beans, olive oil, lemon, garlic, whole wheat bread",Middle Eastern
+Fat Loss,Breakfast,Greek Yogurt with Dates and Walnuts,320,20,28,12,"greek yogurt, dates, walnuts",Middle Eastern
+Maintenance,Breakfast,Shakshuka with Whole Wheat Bread,410,22,30,18,"eggs, tomatoes, peppers, onions, olive oil, whole wheat bread",Levantine
+Muscle Gain,Breakfast,Labneh with Za'atar and Olive Oil,390,17,24,22,"labneh, zaatar, olive oil, bread",Levantine
+Endurance,Breakfast,Oatmeal with Tahini and Banana,450,16,60,14,"oats, tahini, banana, milk",Middle Eastern
+Fat Loss,Breakfast,Egg Omelette with Parsley and Tomatoes,290,24,10,16,"eggs, parsley, tomatoes, olive oil",Middle Eastern
+Muscle Gain,Breakfast,Hummus with Boiled Eggs and Pita,470,24,38,20,"hummus, eggs, pita bread",Levantine
+Maintenance,Breakfast,Cheese Manakish with Cucumbers,420,18,42,18,"flatbread, akkawi cheese, cucumbers",Levantine
+Muscle Gain,Breakfast,Falafel Sandwich Baked Style,480,19,50,18,"falafel, pita, tahini, vegetables",Levantine
+Fat Loss,Breakfast,Cottage Cheese with Cucumber and Mint,260,23,8,12,"cottage cheese, cucumber, mint",Middle Eastern
+Maintenance,Breakfast,Boiled Eggs with Labneh and Olives,340,22,10,22,"eggs, labneh, olives",Middle Eastern
+Endurance,Breakfast,Date and Peanut Butter Oats,460,18,62,15,"oats, dates, peanut butter, milk",Fusion
+Muscle Gain,Breakfast,Chicken Shawarma Breakfast Wrap,510,32,40,20,"chicken shawarma, wrap, garlic sauce, vegetables",Middle Eastern
+Fat Loss,Breakfast,Yogurt with Oats and Honey,310,17,36,10,"yogurt, oats, honey",Middle Eastern
+Maintenance,Breakfast,Spinach Fatayer with Yogurt,390,14,45,16,"spinach pies, yogurt",Levantine
+Muscle Gain,Breakfast,Turkish Eggs with Bread,450,25,28,24,"eggs, yogurt, chili butter, bread",Turkish
+Fat Loss,Breakfast,Feta Salad with Boiled Eggs,300,22,9,18,"feta cheese, eggs, cucumber, tomato, olive oil",Mediterranean
+Maintenance,Breakfast,Ka'ak with Cheese and Tea,380,14,42,16,"kaak bread, white cheese",Levantine
+Endurance,Breakfast,Banana Date Smoothie with Oats,430,15,65,10,"banana, dates, oats, milk",Middle Eastern
+Muscle Gain,Breakfast,Scrambled Eggs with Potatoes and Bread,520,24,48,24,"eggs, potatoes, bread, olive oil",Middle Eastern
+Muscle Gain,Lunch,Chicken Kabsa,720,45,78,24,"chicken, basmati rice, spices, onions, tomato",Gulf
+Fat Loss,Lunch,Grilled Chicken with Tabbouleh,510,42,28,18,"grilled chicken, parsley, bulgur, tomato, olive oil",Levantine
+Maintenance,Lunch,Lentil Soup with Salad and Bread,480,22,52,14,"lentils, carrots, onions, bread, salad",Middle Eastern
+Muscle Gain,Lunch,Beef Kofta with Rice,690,40,62,28,"beef kofta, rice, parsley, onions",Middle Eastern
+Endurance,Lunch,Chicken Shawarma Rice Bowl,650,38,72,18,"chicken shawarma, rice, vegetables, yogurt sauce",Levantine
+Fat Loss,Lunch,Grilled Fish with Sayadiya Rice,540,39,45,16,"white fish, rice, onions, spices",Levantine
+Maintenance,Lunch,Mujaddara with Cucumber Yogurt,520,20,64,14,"lentils, rice, onions, yogurt, cucumber",Levantine
+Muscle Gain,Lunch,Mansaf with Chicken,760,44,70,28,"rice, chicken, jameed yogurt sauce, almonds",Jordanian
+Fat Loss,Lunch,Stuffed Zucchini with Lean Beef,500,34,30,20,"zucchini, lean beef, rice, tomato sauce",Levantine
+Maintenance,Lunch,Molokhia with Rice and Chicken,620,38,55,22,"molokhia leaves, chicken, rice, garlic",Egyptian
+Muscle Gain,Lunch,Maqluba with Chicken,740,42,76,24,"rice, chicken, eggplant, cauliflower",Levantine
+Endurance,Lunch,Freekeh with Grilled Chicken,640,41,68,18,"freekeh, chicken, spices",Levantine
+Fat Loss,Lunch,Grilled Kofta with Hummus and Salad,530,37,24,22,"kofta, hummus, salad",Middle Eastern
+Maintenance,Lunch,Chicken Musakhan Roll,610,36,50,24,"chicken, sumac, onions, taboon bread",Palestinian
+Muscle Gain,Lunch,Beef Shawarma Plate with Rice,730,43,66,28,"beef shawarma, rice, tahini, vegetables",Levantine
+Fat Loss,Lunch,Baked Kibbeh with Yogurt,520,30,34,22,"bulgur, lean beef, onions, yogurt",Levantine
+Maintenance,Lunch,Stuffed Bell Peppers with Rice and Meat,590,31,58,18,"bell peppers, rice, minced meat, tomato sauce",Middle Eastern
+Muscle Gain,Lunch,Grilled Lamb Chops with Rice,780,46,52,36,"lamb chops, rice, spices",Middle Eastern
+Endurance,Lunch,Chicken Biryani Arabic Style,710,42,80,20,"chicken, rice, spices, yogurt",South Asian / Gulf
+Fat Loss,Lunch,Shrimp with Bulgur and Vegetables,500,36,42,14,"shrimp, bulgur, vegetables, olive oil",Mediterranean
+Maintenance,Lunch,Falafel Plate with Salad and Tahini,560,18,48,28,"falafel, salad, tahini, pita",Levantine
+Muscle Gain,Lunch,Chicken Mandi,750,45,82,22,"chicken, rice, mandi spices",Yemeni
+Fat Loss,Lunch,Turkey Kofta with Roasted Vegetables,480,39,18,20,"turkey mince, zucchini, peppers, spices",Fusion Middle Eastern
+Maintenance,Lunch,Spinach Stew with Rice,540,20,58,16,"spinach, beef cubes, rice, garlic",Levantine
+Muscle Gain,Lunch,Shish Tawook with Rice and Garlic Sauce,700,48,64,24,"chicken breast, rice, garlic sauce",Levantine
+Endurance,Lunch,Chicken Fatteh with Yogurt,660,35,68,22,"chicken, bread, rice, yogurt, chickpeas",Levantine
+Fat Loss,Lunch,Okra Stew with Lean Beef,510,33,26,22,"okra, lean beef, tomato sauce, rice",Middle Eastern
+Maintenance,Lunch,Rice with Peas and Carrots with Chicken,610,36,66,18,"rice, peas, carrots, chicken",Middle Eastern
+Muscle Gain,Lunch,Beef Arayes with Yogurt Dip,720,38,54,32,"minced beef, pita bread, yogurt",Levantine
+Fat Loss,Lunch,Grilled Chicken with Freekeh Salad,500,40,30,16,"chicken, freekeh, parsley, lemon",Levantine
+Maintenance,Lunch,White Beans Stew with Rice,560,24,62,14,"white beans, tomato sauce, rice",Middle Eastern
+Muscle Gain,Lunch,Kafta Bil Siniya with Potatoes,740,42,48,34,"beef kafta, potatoes, tahini",Levantine
+Endurance,Lunch,Rice and Chicken Liver Arabic Style,630,34,60,20,"chicken liver, rice, onions, spices",Middle Eastern
+Fat Loss,Lunch,Stuffed Eggplant with Lean Meat,490,31,24,20,"eggplant, lean meat, tomato sauce",Levantine
+Maintenance,Lunch,Chicken and Lentil Soup Bowl,460,30,38,12,"chicken, lentils, carrots, celery",Middle Eastern
+Muscle Gain,Lunch,Lamb Ouzi with Rice and Nuts,810,44,74,34,"lamb, rice, nuts, spices",Gulf
+Fat Loss,Lunch,Grilled Sea Bream with Salad,470,38,12,20,"sea bream, olive oil, greens",Mediterranean
+Maintenance,Lunch,Chickpea Stew with Rice,540,21,64,14,"chickpeas, rice, tomato sauce, onions",Middle Eastern
+Muscle Gain,Lunch,Chicken and Potato Tray Bake,690,40,58,26,"chicken, potatoes, onions, olive oil",Middle Eastern
+Endurance,Lunch,Beef Rice Pilaf Arabic Style,700,39,72,22,"beef, rice, spices, peas",Middle Eastern
+Maintenance,Dinner,Shorbat Adas with Toast,380,18,42,8,"lentil soup, toast",Middle Eastern
+Fat Loss,Dinner,Grilled Chicken Salad with Tahini Lemon Dressing,430,38,16,18,"chicken, lettuce, cucumber, tahini, lemon",Middle Eastern
+Muscle Gain,Dinner,Tuna Pita Sandwich with Yogurt Sauce,520,34,42,18,"tuna, pita, yogurt sauce, vegetables",Mediterranean
+Endurance,Dinner,Chicken and Rice Soup,450,28,46,10,"chicken, rice, carrots, celery",Middle Eastern
+Maintenance,Dinner,Labneh Plate with Olives and Vegetables,360,18,18,22,"labneh, olives, cucumbers, tomatoes",Levantine
+Fat Loss,Dinner,Grilled Halloumi and Tomato Plate,390,24,10,24,"halloumi, tomato, cucumber, olive oil",Levantine
+Muscle Gain,Dinner,Chicken Quesadilla Arabic Twist,560,36,44,24,"chicken, flatbread, cheese, spices",Fusion
+Endurance,Dinner,Hummus Bowl with Chicken Strips,510,32,36,22,"hummus, chicken strips, olive oil, pita",Levantine
+Maintenance,Dinner,Cheese Omelette with Salad,340,24,8,20,"eggs, cheese, salad",Middle Eastern
+Fat Loss,Dinner,Zucchini Soup with Yogurt,300,14,18,14,"zucchini, yogurt, garlic, olive oil",Middle Eastern
+Muscle Gain,Dinner,Minced Beef with Potatoes and Bread,620,35,48,28,"minced beef, potatoes, bread",Middle Eastern
+Endurance,Dinner,Fatteh Yogurt Bowl with Chickpeas,500,20,58,16,"bread, yogurt, chickpeas, pine nuts",Levantine
+Maintenance,Dinner,Spinach and Cheese Pastry with Yogurt,430,16,38,22,"pastry, spinach, cheese, yogurt",Levantine
+Fat Loss,Dinner,Grilled Fish Fillet with Steamed Veggies,410,35,14,16,"fish fillet, vegetables, olive oil",Mediterranean
+Muscle Gain,Dinner,Chicken Pasta Arabic Spices,650,40,66,18,"chicken, pasta, tomato sauce, spices",Fusion
+Endurance,Dinner,Turkey Sandwich on Arabic Bread,470,30,42,14,"turkey, arabic bread, lettuce, yogurt sauce",Fusion
+Maintenance,Dinner,Ful with Yogurt and Vegetables,390,18,34,14,"fava beans, yogurt, vegetables",Middle Eastern
+Fat Loss,Dinner,Cauliflower Tahini Bowl,350,14,20,20,"cauliflower, tahini, lemon, garlic",Levantine
+Muscle Gain,Dinner,Chicken Liver with Bread and Salad,540,32,30,26,"chicken liver, bread, onions, salad",Middle Eastern
+Endurance,Dinner,Rice Pudding with Milk and Nuts,430,14,58,12,"rice, milk, nuts, cinnamon",Middle Eastern
+Maintenance,Dinner,Vegetable Couscous Bowl,420,14,58,10,"couscous, vegetables, chickpeas",North African
+Fat Loss,Dinner,Stuffed Grape Leaves with Yogurt,370,12,34,18,"grape leaves, rice, herbs, yogurt",Levantine
+Muscle Gain,Dinner,Beef and Hummus Plate,610,36,28,34,"beef strips, hummus, olive oil, pita",Middle Eastern
+Endurance,Dinner,Chicken Freekeh Soup,460,30,42,12,"chicken, freekeh, onions, broth",Levantine
+Maintenance,Dinner,Tomato Egg Stew with Bread,390,22,26,18,"eggs, tomatoes, onions, bread",Middle Eastern
+Fat Loss,Dinner,Roasted Eggplant with Yogurt Sauce,320,12,18,18,"eggplant, yogurt, garlic, olive oil",Levantine
+Muscle Gain,Dinner,Shawarma Wrap with Fries Oven Baked,670,34,56,30,"shawarma chicken, wrap, potatoes, garlic sauce",Levantine
+Endurance,Dinner,Chicken and Bulgur Bowl,520,34,50,14,"chicken, bulgur, vegetables",Middle Eastern
+Maintenance,Dinner,Cheese and Zaatar Flatbread with Salad,450,18,42,18,"flatbread, cheese, zaatar, salad",Levantine
+Fat Loss,Dinner,Light Lentil and Vegetable Stew,330,18,28,10,"lentils, zucchini, carrots, tomato",Middle Eastern
+Muscle Gain,Dinner,Arabic Beef Burger Plate,690,38,44,32,"beef patty, bread, tahini slaw, potatoes",Fusion Middle Eastern
+Endurance,Dinner,Chicken Couscous with Raisins,580,32,68,16,"chicken, couscous, raisins, spices",North African
+Maintenance,Dinner,Yogurt Cucumber Bowl with Eggs and Bread,360,22,24,14,"yogurt, cucumber, eggs, bread",Middle Eastern
+Fat Loss,Dinner,Grilled Shrimp Salad Arabic Style,390,34,12,16,"shrimp, greens, lemon, olive oil",Mediterranean
+Muscle Gain,Dinner,Beef Rice Stuffed Cabbage Rolls,650,34,54,24,"cabbage, beef, rice, tomato sauce",Levantine
+Endurance,Dinner,Chickpea Pasta with Herbs and Yogurt,560,24,62,14,"chickpea pasta, herbs, yogurt",Fusion
+Maintenance,Dinner,Labneh Wrap with Turkey Slices,410,26,28,16,"labneh, wrap, turkey, cucumber",Fusion Middle Eastern
+Fat Loss,Dinner,Chicken Vegetable Soup,290,28,16,8,"chicken, vegetables, broth",Middle Eastern
+Muscle Gain,Dinner,Egg and Cheese Arabic Sandwich,530,28,38,24,"eggs, cheese, arabic bread",Middle Eastern
+Endurance,Dinner,Date Yogurt Energy Bowl,440,18,56,10,"dates, yogurt, oats, nuts",Middle Eastern
+Muscle Gain,Breakfast,Mashed Chickpeas with Eggs and Olive Oil,440,23,34,20,"chickpeas, eggs, olive oil, lemon",Middle Eastern
+Fat Loss,Breakfast,Yogurt with Cucumber and Flaxseeds,250,18,10,12,"yogurt, cucumber, flaxseeds",Mediterranean
+Maintenance,Breakfast,Whole Wheat Cheese Toast Arabic Style,360,19,30,16,"whole wheat bread, cheese, tomatoes",Middle Eastern
+Endurance,Breakfast,Semolina Porridge with Dates,420,14,62,10,"semolina, milk, dates",Middle Eastern
+Muscle Gain,Breakfast,Chicken and Egg Breakfast Plate,500,35,22,26,"chicken breast, eggs, bread",Fusion
+Fat Loss,Breakfast,Tomato Mint Egg White Scramble,240,22,8,10,"egg whites, tomato, mint, olive oil",Middle Eastern
+Maintenance,Breakfast,Baba Ghanoush with Pita and Yogurt,370,14,32,18,"eggplant, tahini, yogurt, pita",Levantine
+Endurance,Breakfast,Date Molasses with Tahini and Bread,430,13,58,16,"date molasses, tahini, bread",Levantine
+Muscle Gain,Breakfast,Halloumi Wrap with Eggs,490,30,28,28,"halloumi, eggs, wrap, vegetables",Levantine
+Fat Loss,Breakfast,Boiled Eggs with Arugula Salad,270,22,6,16,"eggs, arugula, lemon, olive oil",Mediterranean
+Maintenance,Lunch,Chicken and Chickpea Stew with Rice,620,36,64,18,"chicken, chickpeas, rice, tomato",Middle Eastern
+Muscle Gain,Lunch,Arabic Spiced Beef Meatballs with Rice,730,42,68,26,"beef meatballs, rice, spices",Middle Eastern
+Fat Loss,Lunch,Grilled Chicken with Cauliflower Rice,460,40,18,16,"chicken, cauliflower, spices, olive oil",Fusion
+Endurance,Lunch,Freekeh Pilaf with Chicken and Almonds,680,38,72,20,"freekeh, chicken, almonds",Levantine
+Maintenance,Lunch,Pea Stew with Lean Beef and Rice,600,32,58,18,"peas, lean beef, rice, tomato sauce",Middle Eastern
+Muscle Gain,Lunch,Chicken Fajita Arabic Rice Bowl,710,44,66,24,"chicken, rice, peppers, yogurt sauce",Fusion
+Fat Loss,Lunch,Baked Fish with Tahini Salad,490,36,22,18,"fish, tahini salad, lemon",Levantine
+Endurance,Lunch,Turkey Rice Stuffed Zucchini,620,34,60,18,"turkey mince, zucchini, rice",Middle Eastern
+Maintenance,Lunch,Red Lentil Rice Bowl with Yogurt,550,22,66,12,"red lentils, rice, yogurt",Middle Eastern
+Muscle Gain,Lunch,Chicken and Potato Kabob Plate,760,46,58,30,"chicken kabob, potatoes, garlic sauce",Middle Eastern
+Fat Loss,Dinner,Greek Yogurt with Cucumber and Boiled Eggs,310,24,10,14,"greek yogurt, cucumber, eggs",Mediterranean
+Maintenance,Dinner,Light Hummus Plate with Salad,350,14,24,18,"hummus, salad, olive oil",Levantine
+Muscle Gain,Dinner,Chicken and Cheese Saj Wrap,590,38,46,22,"chicken, saj bread, cheese, vegetables",Levantine
+Endurance,Dinner,Bulgur with Yogurt and Chickpeas,470,20,56,12,"bulgur, yogurt, chickpeas",Middle Eastern
+Fat Loss,Dinner,Grilled Turkey Slices with Vegetables,330,32,12,10,"turkey, vegetables, olive oil",Fusion
+Maintenance,Dinner,Eggplant Tomato Stew with Bread,390,12,34,18,"eggplant, tomatoes, bread, olive oil",Levantine
+Muscle Gain,Dinner,Arabic Tuna Pasta Salad,610,34,58,20,"tuna, pasta, yogurt dressing, herbs",Fusion
+Endurance,Dinner,Chicken Rice Bowl with Yogurt Mint Sauce,540,32,52,14,"chicken, rice, yogurt, mint",Middle Eastern
+Fat Loss,Dinner,Lentil Soup with Lemon and Cumin,280,16,30,6,"lentils, lemon, cumin, onions",Middle Eastern
+Maintenance,Dinner,Cheese Omelette Wrap,420,24,24,20,"eggs, cheese, wrap",Middle Eastern
+Muscle Gain,Breakfast,Aish Baladi with Feta and Olives,400,18,46,16,"baladi bread, feta cheese, olives, olive oil",Egyptian
+Fat Loss,Breakfast,Kishk with Walnuts and Honey,350,14,42,12,"kishk powder, milk, walnuts, honey",Levantine
+Maintenance,Breakfast,Qatayef with Low-Fat Akkawi,480,12,68,14,"qatayef dough, akkawi cheese, sugar syrup",Levantine
+Endurance,Breakfast,Asida with Honey and Ghee,560,10,84,20,"wheat flour, honey, ghee, milk",Sudanese
+Muscle Gain,Breakfast,Beef Sausage with Eggs and Pita,540,28,34,28,"beef sausage, eggs, pita bread",Levantine
+Fat Loss,Breakfast,Egg and Zaatar Omelette with Labneh,300,22,8,18,"eggs, zaatar, labneh, olive oil",Levantine
+Maintenance,Breakfast,Date Filled Maamoul with Tea,410,8,62,14,"maamoul dough, dates, semolina",Levantine
+Endurance,Breakfast,Tahini Banana Smoothie Bowl,460,12,64,16,"banana, tahini, milk, oats, honey",Middle Eastern
+Muscle Gain,Breakfast,Grilled Halloumi and Egg Sandwich,520,28,38,28,"halloumi, eggs, arabic bread, tomato",Levantine
+Fat Loss,Breakfast,Cucumber Labneh Boat,240,14,12,14,"labneh, cucumber, mint, walnuts",Middle Eastern
+Maintenance,Breakfast,Bread Pudding with Nuts (Egyptian),480,14,60,18,"bread, milk, nuts, cinnamon, honey",Egyptian
+Muscle Gain,Lunch,Chicken Tagen with Olives and Potatoes,680,44,48,28,"chicken, olives, potatoes, onions, spices",North African
+Fat Loss,Lunch,Grilled Sardines with Tomato Salsa,460,38,12,20,"sardines, tomato, onion, parsley, lemon",Moroccan
+Maintenance,Lunch,Couscous with Seven Vegetables,570,16,84,12,"couscous, zucchini, carrots, chickpeas, pumpkin",Tunisian
+Endurance,Lunch,Ruz Bukhari (Uzbek Rice),720,38,88,22,"rice, carrots, chickpeas, beef, spices",Afghan / Uzbek
+Muscle Gain,Lunch,Lamb Tajine with Prunes and Almonds,830,46,70,38,"lamb, prunes, almonds, onions, honey",Moroccan
+Fat Loss,Lunch,Chicken Mshakkal (Grilled Vegetables),490,44,22,18,"chicken, bell peppers, onions, zucchini, spices",Lebanese
+Maintenance,Lunch,Fasolia with Rice and Beef,640,34,62,22,"white beans, beef, rice, tomato sauce",Egyptian
+Muscle Gain,Lunch,Camel Meat Mandi,810,52,68,32,"camel meat, rice, mandi spices",Yemeni
+Endurance,Lunch,Bamia with Lamb and Rice,680,36,58,26,"okra, lamb, rice, tomato sauce",Egyptian
+Fat Loss,Lunch,Garlic Shrimp with Broccoli Rice,490,46,24,18,"shrimp, broccoli, garlic, lemon, olive oil",Fusion
+Maintenance,Lunch,Kabsa with Fish,590,32,70,14,"fish, rice, kabsa spices, onions",Gulf
+Muscle Gain,Lunch,Beef Stroganoff Arabic Style,750,48,52,36,"beef strips, mushrooms, yogurt sauce, rice",Levantine
+Fat Loss,Lunch,Zucchini Boats with Turkey Mince,430,38,18,16,"zucchini, turkey mince, tomato sauce",Middle Eastern
+Maintenance,Lunch,Chicken and Sweet Potato Tagine,560,34,48,18,"chicken, sweet potato, chickpeas, spices",Moroccan
+Endurance,Lunch,Freekeh Soup with Chicken and Lentils,610,32,74,14,"freekeh, chicken, lentils, broth",Levantine
+Muscle Gain,Lunch,Grilled Quail with Rice and Pomegranate,730,52,58,30,"quail, rice, pomegranate molasses, walnuts",Levantine
+Fat Loss,Lunch,Salmon with Fennel and Lemon,510,46,10,28,"salmon, fennel, lemon, olive oil",Mediterranean
+Maintenance,Lunch,Stuffed Onions with Rice and Meat,620,30,64,20,"onions, rice, minced beef, tomato sauce",Turkish / Arab
+Muscle Gain,Lunch,Chicken Thighs with Buckwheat,680,44,56,28,"chicken thighs, buckwheat, onions, spices",Fusion
+Fat Loss,Lunch,Octopus Salad with Lemon and Capers,380,34,12,14,"octopus, lemon, capers, olive oil, parsley",Mediterranean
+Endurance,Lunch,Pasta with Lentils and Tomato (Egyptian),600,24,80,14,"pasta, brown lentils, tomato sauce, onions",Egyptian
+Maintenance,Lunch,Potato and Pea Stew with Rice,570,18,68,16,"potatoes, peas, rice, tomato, spices",Middle Eastern
+Muscle Gain,Lunch,Duck Maqluba,840,50,72,38,"duck, rice, eggplant, cauliflower",Levantine
+Fat Loss,Lunch,Beef Liver with Sauteed Onions,470,42,12,22,"beef liver, onions, olive oil, spices",Middle Eastern
+Maintenance,Lunch,Barley Soup with Lamb and Vegetables,530,26,58,16,"barley, lamb, carrots, celery, tomatoes",Middle Eastern
+Muscle Gain,Lunch,Chicken Fattah with Garlic Vinegar,720,40,74,26,"chicken, bread, rice, garlic vinegar",Egyptian
+Endurance,Lunch,Bulgur Pilaf with Chickpeas and Chicken,650,38,76,18,"bulgur, chickpeas, chicken, onions",Levantine
+Fat Loss,Lunch,Steamed Fish with Tamarind Sauce,460,42,14,18,"white fish, tamarind, spices, cilantro",Egyptian
+Maintenance,Lunch,Macarona Bechamel with Lean Beef,720,32,68,32,"pasta, bechamel, lean beef, cheese",Egyptian
+Muscle Gain,Lunch,Grilled Octopus with Freekeh,690,52,58,26,"octopus, freekeh, lemon, olive oil",Levantine
+Fat Loss,Lunch,Shrimp and Zucchini Noodles,420,38,12,16,"shrimp, zucchini, garlic, olive oil",Fusion
+Maintenance,Lunch,Rice with Vermicelli and Chicken Livers,580,34,64,18,"rice, vermicelli, chicken livers, onions",Levantine
+Muscle Gain,Dinner,Lamb Chops with Grilled Asparagus,660,48,8,44,"lamb chops, asparagus, olive oil, garlic",Mediterranean
+Fat Loss,Dinner,Tuna and Chickpea Salad,370,34,20,16,"tuna, chickpeas, parsley, lemon, olive oil",Mediterranean
+Maintenance,Dinner,Eggplant Fatteh with Yogurt,520,20,58,22,"fried eggplant, bread, yogurt, garlic",Levantine
+Endurance,Dinner,Chicken and Vermicelli Soup,420,28,46,10,"chicken, vermicelli, broth, spices",Middle Eastern
+Muscle Gain,Dinner,Beef Kofta with Eggplant Puree,640,42,28,36,"beef kofta, eggplant, tahini, garlic",Levantine
+Fat Loss,Dinner,Cod with Chermoula and Cauliflower,400,40,12,18,"cod, chermoula sauce, cauliflower, olive oil",Moroccan
+Maintenance,Dinner,Falafel Bowl with Quinoa,560,20,64,20,"falafel, quinoa, tahini, salad",Levantine
+Muscle Gain,Dinner,Lamb Liver Saute with Sumac,590,44,14,34,"lamb liver, sumac, onions, pomegranate molasses",Levantine
+Endurance,Dinner,Pumpkin Lentil Soup with Crispy Bread,470,20,58,12,"pumpkin, red lentils, carrots, bread",Middle Eastern
+Fat Loss,Dinner,Cabbage Rolls with Lean Meat,420,32,24,18,"cabbage leaves, lean beef, rice, tomato",Levantine
+Maintenance,Dinner,Green Beans Stew with Olive Oil,450,12,32,24,"green beans, olive oil, onions, tomato",Egyptian
+Muscle Gain,Dinner,Chicken Drumsticks with Quinoa Tabbouleh,600,46,44,26,"chicken drumsticks, quinoa, parsley, tomato",Levantine
+Fat Loss,Dinner,Shrimp Soup with Cilantro and Lemon,310,32,12,12,"shrimp, cilantro, lemon, garlic, broth",Egyptian
+Maintenance,Dinner,Stuffed Artichokes with Rice and Herbs,500,18,60,16,"artichokes, rice, dill, lemon",Levantine
+Muscle Gain,Dinner,Beef and Okra Stew with Brown Rice,680,40,56,30,"beef, okra, brown rice, tomato sauce",Middle Eastern
+Endurance,Dinner,Fish Sayadiya with Freekeh,610,38,62,20,"white fish, freekeh, onions, spices",Levantine
+Fat Loss,Dinner,Chicken and Cucumber Yogurt Bowl,360,34,12,14,"chicken breast, cucumber yogurt, mint",Middle Eastern
+Maintenance,Dinner,Rice Pudding with Rose Water and Nuts,440,10,68,14,"rice, milk, rose water, pistachios",Levantine
+Muscle Gain,Dinner,Beef Arayes with Garlic Yogurt,700,42,46,36,"minced beef, pita bread, yogurt, garlic",Levantine
+Endurance,Dinner,Semolina Cake with Date Syrup,530,12,84,16,"semolina, date syrup, coconut, nuts",Gulf
+Fat Loss,Dinner,Grilled Halloumi and Watermelon Salad,380,20,18,24,"halloumi, watermelon, mint, olive oil",Levantine
+Maintenance,Dinner,Moussaka with Lentils (Vegetarian),490,18,48,22,"eggplant, lentils, tomatoes, onions",Levantine
+Muscle Gain,Dinner,Turkey Shawarma Plate with Sweet Potato,630,48,46,28,"turkey shawarma, sweet potato, tahini",Fusion
+Fat Loss,Dinner,Clam Soup with Parsley and Garlic,290,26,12,8,"clams, parsley, garlic, broth",Mediterranean
+Maintenance,Dinner,Spinach Fatayer with Labneh Dip,460,16,48,20,"spinach pies, labneh, mint",Levantine
+Muscle Gain,Dinner,Chicken Kabob with Cilantro Rice,710,44,68,26,"chicken kabob, rice, cilantro, lime",Fusion
+Endurance,Dinner,Chickpea and Potato Curry,540,18,72,16,"chickpeas, potatoes, coconut milk, spices",Fusion (Arabic)
+Fat Loss,Dinner,Zucchini Noodles with Pesto,350,12,14,26,"zucchini, basil pesto, pine nuts",Mediterranean
+Maintenance,Dinner,Freekeh Salad with Pomegranate and Walnuts,520,16,58,22,"freekeh, pomegranate seeds, walnuts, parsley",Levantine
+Muscle Gain,Dinner,Grilled Liver Sandwich with Onions,580,40,36,28,"liver, arabic bread, sauteed onions",Egyptian
+Fat Loss,Dinner,Beetroot Yogurt Soup with Dill,270,10,20,12,"beetroot, yogurt, dill, garlic",Levantine
+Endurance,Dinner,Milk with Date and Cardamom Smoothie,430,12,60,12,"milk, dates, cardamom, honey",Gulf
+Fat Loss,Snack,Cucumber and Zaatar Cups,90,3,6,5,"cucumber, zaatar, lemon, olive oil",Middle Eastern
+Maintenance,Snack,Roasted Chickpeas with Paprika,150,7,20,4,"chickpeas, paprika, olive oil, salt",Middle Eastern
+Endurance,Snack,Date and Almond Energy Balls,210,5,28,10,"dates, almonds, cocoa powder",Middle Eastern
+Muscle Gain,Snack,Tuna and Hummus Lettuce Wraps,280,22,12,14,"tuna, hummus, lettuce, lemon",Mediterranean
+Fat Loss,Snack,Boiled Egg with Zaatar and Olive Oil,140,12,2,10,"egg, zaatar, olive oil",Levantine
+Maintenance,Snack,Pita Chips with Labneh Dip,310,10,34,14,"pita bread, labneh, mint",Levantine
+Endurance,Snack,Figs and Goat Cheese Bites,190,6,24,8,"fresh figs, goat cheese, honey",Mediterranean
+Muscle Gain,Snack,Beef Jerky Arabic Spiced,250,32,8,8,"beef, spices, vinegar",Middle Eastern
+Fat Loss,Snack,Carrot Sticks with Tahini Lemon Dip,120,3,14,6,"carrots, tahini, lemon, garlic",Levantine
+Maintenance,Snack,Semolina Halva with Pistachios,380,6,50,18,"semolina, sugar, ghee, pistachios",Middle Eastern
+Endurance,Snack,Dried Apricots with Walnuts,170,4,28,6,"dried apricots, walnuts",Middle Eastern
+Muscle Gain,Dessert,Rice Pudding with Protein Powder,420,20,58,12,"rice, milk, protein powder, cinnamon",Fusion
+Fat Loss,Dessert,Baked Cinnamon Apples with Yogurt,180,4,28,6,"apple, cinnamon, yogurt, honey",Mediterranean
+Maintenance,Dessert,Basbousa with Coconut,490,6,68,20,"semolina, coconut, sugar, yogurt",Egyptian
+Endurance,Dessert,Date and Walnut Maamoul,350,5,50,14,"dates, walnuts, semolina, ghee",Levantine
+Muscle Gain,Dessert,Chickpea Blondies,310,12,40,12,"chickpeas, peanut butter, honey, chocolate chips",Fusion
+Fat Loss,Dessert,Frozen Yogurt Bark with Berries,150,6,18,6,"greek yogurt, mixed berries, honey",Mediterranean
+Maintenance,Dessert,Kunafa with Low-Fat Cheese,520,16,60,22,"kunafa dough, akkawi cheese, sugar syrup",Levantine
+Endurance,Dessert,Qatayef with Cream and Nuts,460,10,64,18,"qatayef, ashta cream, pistachios, syrup",Levantine
+Muscle Gain,Dessert,Saffron Milk Cake,390,12,58,12,"milk, flour, saffron, nuts",Gulf
+Fat Loss,Dessert,Lemon and Mint Sorbet,110,1,26,0,"lemon juice, mint, sugar, water",Mediterranean
+Maintenance,Dessert,Stuffed Dates with Peanut Butter,240,5,36,10,"dates, peanut butter, dark chocolate",Fusion
+Muscle Gain,Breakfast,Foul with Eggs and Tomato,460,26,38,18,"fava beans, eggs, tomato, cumin",Egyptian
+Fat Loss,Breakfast,Labneh with Cucumber and Dill,260,18,10,14,"labneh, cucumber, dill, olive oil",Levantine
+Maintenance,Breakfast,Manakish with Thyme and Olive Oil,380,12,46,16,"dough, zaatar, olive oil",Levantine
+Endurance,Breakfast,Arabic Coffee with Dates and Oats,410,10,64,10,"oats, dates, arabic coffee, milk",Gulf
+Muscle Gain,Breakfast,Chicken Liver and Egg Scramble,530,34,14,32,"chicken livers, eggs, onions, spices",Egyptian
+Fat Loss,Breakfast,Chia Pudding with Rose Water,280,10,24,14,"chia seeds, rose water, milk, pistachios",Fusion
+Maintenance,Breakfast,Cheese Rolls with Sesame,420,18,38,20,"phyllo dough, akkawi cheese, sesame",Levantine
+Muscle Gain,Lunch,Roasted Lamb Shoulder with Potatoes,850,58,42,48,"lamb shoulder, potatoes, garlic, rosemary",Levantine
+Fat Loss,Lunch,Chicken Tawook Salad Bowl,470,44,16,22,"chicken tawook, lettuce, tomato, garlic sauce",Levantine
+Maintenance,Lunch,Spinach and Feta Pie with Rice,610,24,58,26,"phyllo, spinach, feta, rice",Mediterranean
+Endurance,Lunch,Shorbat Hareera with Dates,590,28,68,16,"lentils, chickpeas, lamb, dates, flour",Moroccan
+Muscle Gain,Lunch,Grilled Camel Burger with Sweet Potato Fries,790,58,58,36,"camel meat, burger bun, sweet potato",Gulf
+Fat Loss,Lunch,Chicken and Zucchini Noodles with Pesto,430,38,12,22,"chicken, zucchini, basil pesto",Fusion
+Maintenance,Lunch,Artichoke Stew with Peas and Rice,540,20,62,18,"artichokes, peas, rice, dill",Egyptian
+Muscle Gain,Lunch,Beef Shawarma Stuffed Peppers,650,44,38,32,"beef shawarma, bell peppers, cheese",Fusion
+Fat Loss,Lunch,Garlic and Lemon Shrimp with Cauliflower Rice,420,40,12,20,"shrimp, cauliflower, garlic, lemon",Mediterranean
+Maintenance,Lunch,Pumpkin Kibbeh with Yogurt,500,18,48,22,"pumpkin, bulgur, onions, yogurt",Levantine
+Endurance,Lunch,Chicken and Chickpea Tagine with Quinoa,640,38,70,16,"chicken, chickpeas, quinoa, apricots",Moroccan
+Muscle Gain,Lunch,Beef Tongue Stew with Rice,720,52,44,34,"beef tongue, rice, onions, tomato sauce",Egyptian
+Fat Loss,Lunch,Grilled Squid with Lemon and Parsley,380,36,8,18,"squid, lemon, parsley, olive oil",Mediterranean
+Maintenance,Lunch,Stuffed Cabbage with Lentils and Rice,520,22,68,12,"cabbage leaves, lentils, rice, tomato",Levantine
+Muscle Gain,Dinner,Lamb Kofta with Grilled Peppers,630,46,18,38,"lamb kofta, bell peppers, onions, spices",Middle Eastern
+Fat Loss,Dinner,Shrimp and Okra Stew Light,400,34,16,18,"shrimp, okra, tomato sauce, garlic",Egyptian
+Maintenance,Dinner,Green Wheat (Freekeh) with Mushrooms,480,18,60,16,"freekeh, mushrooms, onions, vegetable broth",Levantine
+Endurance,Dinner,Chicken Soup with Vermicelli and Lemon,390,28,34,10,"chicken, vermicelli, lemon, parsley",Middle Eastern
+Muscle Gain,Dinner,Grilled Beef Heart with Sumac Onions,580,50,12,32,"beef heart, sumac, onions, olive oil",Levantine
+Fat Loss,Dinner,Cod Fish Tagine with Vegetables,430,42,14,18,"cod, bell peppers, tomatoes, olives",Moroccan
+Maintenance,Dinner,Potato and Eggplant Moussaka,540,16,46,28,"eggplant, potatoes, tomato sauce",Levantine
+Muscle Gain,Dinner,Chicken Shawarma Stuffed Zucchini,610,48,26,32,"chicken shawarma, zucchini, cheese",Fusion
+Endurance,Dinner,Lentil and Pumpkin Soup with Croutons,470,22,58,12,"red lentils, pumpkin, croutons, cumin",Middle Eastern
+Fat Loss,Dinner,Turkey and Cabbage Stir Fry,340,38,12,14,"turkey mince, cabbage, ginger, soy sauce",Fusion
+Maintenance,Dinner,Barley and Mushroom Pilaf,490,14,72,14,"barley, mushrooms, onions, vegetable broth",Middle Eastern
+Muscle Gain,Dinner,Lamb Brain Scramble with Eggs,550,36,8,38,"lamb brain, eggs, spices, butter",Egyptian
+Fat Loss,Dinner,Roasted Cauliflower with Tahini Sauce,310,12,18,20,"cauliflower, tahini, lemon, garlic",Levantine
+Maintenance,Dinner,Falafel Crumbled Salad with Yogurt,480,18,34,24,"falafel, lettuce, tomato, yogurt sauce",Levantine
+Muscle Gain,Breakfast,Akkawi Cheese Omelette with Olives,500,28,12,36,"eggs, akkawi cheese, olives, olive oil",Levantine
+Fat Loss,Breakfast,Protein Smoothie with Laban,260,24,20,8,"protein powder, laban (buttermilk), banana",Fusion
+Maintenance,Breakfast,Date Syrup Pancakes,430,10,64,14,"flour, date syrup, eggs, milk",Levantine
+Endurance,Breakfast,Freekeh Porridge with Nuts,480,16,70,14,"freekeh, milk, walnuts, honey",Levantine
+Muscle Gain,Lunch,Chicken Molokhia with Brown Rice,670,46,56,28,"molokhia, chicken, brown rice, garlic",Egyptian
+Fat Loss,Lunch,Beef Kofta with Zucchini Noodles,480,42,12,26,"beef kofta, zucchini, tomato sauce",Fusion
+Maintenance,Lunch,Sayadiya Rice with Caramelized Onions,580,22,74,16,"fish stock, rice, onions, spices",Levantine
+Endurance,Lunch,Couscous with Chickpeas and Raisins,620,18,84,16,"couscous, chickpeas, raisins, carrots",North African
+Muscle Gain,Dinner,Grilled Lamb T-bone Steak,740,52,4,52,"lamb T-bone, rosemary, garlic, olive oil",Mediterranean
+Fat Loss,Dinner,Chicken Breast Stuffed with Spinach and Feta,410,46,8,20,"chicken breast, spinach, feta cheese",Mediterranean
+Maintenance,Dinner,Baked Falafel with Quinoa Tabbouleh,530,22,56,22,"baked falafel, quinoa, parsley, tomato",Levantine
+Endurance,Dinner,Seafood Soup with Saffron,480,34,26,18,"shrimp, squid, fish, saffron, broth",Mediterranean
+Muscle Gain,Snack,Hard Boiled Eggs with Turmeric,140,12,1,9,"eggs, turmeric, black pepper",Middle Eastern
+Fat Loss,Snack,Stuffed Grape Leaves (Vegetarian),110,2,14,6,"grape leaves, rice, herbs, olive oil",Levantine
+Maintenance,Snack,Pistachio and Cardamom Bites,200,6,18,12,"pistachios, cardamom, honey, egg white",Gulf
+Endurance,Snack,Carob Molasses with Tahini,180,4,22,10,"carob molasses, tahini",Levantine
+Muscle Gain,Dessert,Ashta with Honey and Berries,350,12,28,20,"ashta cream, honey, mixed berries",Levantine
+Fat Loss,Dessert,Roasted Peaches with Labneh,160,5,20,6,"peaches, labneh, cinnamon, honey",Mediterranean
+Maintenance,Dessert,Eish El Saraya (Bread Pudding),490,8,70,18,"bread, cream, honey, pistachios",Egyptian
+Endurance,Dessert,Apricot and Almond Stuffed Dates,230,5,38,8,"dried apricots, almonds, dates",Middle Eastern
+Maintenance,Breakfast,Foul Syrians (Foul m7ammas with tahini),440,20,46,18,"fava beans, tahini, lemon, garlic, cumin",Syrian
+Muscle Gain,Breakfast,Beid awrama (Eggs with tomato and pepper),350,22,14,20,"eggs, tomato, bell pepper, olive oil",Syrian
+Fat Loss,Breakfast,Jamid and Laban (Yogurt soup with rice),310,18,28,12,"yogurt, rice, mint, garlic",Syrian
+Maintenance,Breakfast,Ka'ak with halloumi and nigella seeds,480,18,52,20,"ka'ak bread, halloumi, nigella seeds",Syrian
+Endurance,Breakfast,Qatayef asafiri (Mini qatayef with cream),520,12,68,22,"qatayef dough, ashta cream, syrup",Syrian
+Muscle Gain,Lunch,Kibbeh bil saniyeh (Tray kibbeh with lamb),760,42,58,36,"bulgur, minced lamb, onions, pine nuts",Syrian
+Fat Loss,Lunch,Kibbeh Labaniyeh (Kibbeh in yogurt stew),590,34,48,28,"kibbeh, yogurt, mint, garlic, rice",Syrian
+Maintenance,Lunch,Yakhnet el bamieh (Okra stew with lamb),620,32,38,34,"okra, lamb, tomato sauce, coriander",Syrian
+Muscle Gain,Lunch,Kibbeh arnabiyeh (Kibbeh with pumpkin and pomegranate),720,38,64,32,"kibbeh, pumpkin, pomegranate molasses, spices",Syrian
+Fat Loss,Lunch,Sheikh el mahshi (Stuffed eggplant with meat and pine nuts),540,36,28,28,"eggplant, minced meat, pine nuts, tomato",Syrian
+Maintenance,Lunch,Mahshi kousa (Stuffed zucchini with rice and meat),610,28,60,22,"zucchini, rice, minced meat, tomato sauce",Syrian
+Endurance,Lunch,Waraq einab (Stuffed grape leaves with lamb),650,30,64,28,"grape leaves, rice, lamb, olive oil, mint",Syrian
+Muscle Gain,Lunch,Shish barak (Dumplings in yogurt sauce),690,38,54,34,"dough, minced meat, yogurt, mint, garlic",Syrian
+Fat Loss,Lunch,Samak makli with tarator sauce,510,44,16,28,"fried fish, tahini sauce, lemon, garlic",Syrian
+Maintenance,Lunch,Fattet makdous (Stuffed eggplant fatteh),580,22,50,28,"makdous, bread, yogurt, tahini",Syrian
+Muscle Gain,Lunch,Sheikh mahshi batenjan (Large stuffed eggplant),740,40,52,38,"eggplant, meat, rice, tomato sauce",Syrian
+Endurance,Lunch,Jazar mahshi (Stuffed carrots with rice and meat),600,28,64,22,"carrots, rice, minced meat, tomato",Syrian
+Fat Loss,Lunch,Battenjan m'tawwal (Grilled eggplant with tahini),430,14,28,28,"eggplant, tahini, garlic, lemon",Syrian
+Maintenance,Lunch,Fasolia bayda (White beans stew with lamb),560,30,48,24,"white beans, lamb, tomato sauce, garlic",Syrian
+Muscle Gain,Lunch,Kibbeh naye (Raw kibbeh with lamb and bulgur),680,42,32,40,"raw lamb, bulgur, spices, olive oil",Syrian
+Fat Loss,Dinner,Fattoush salad with grilled chicken,450,38,28,20,"lettuce, cucumber, tomato, pita, sumac, chicken",Syrian
+Maintenance,Dinner,Salatet el raheb (Monk's salad),280,8,24,16,"lettuce, cucumber, tomato, onion, pomegranate molasses",Syrian
+Endurance,Dinner,Mtabbal (Smoked eggplant dip),310,6,18,24,"eggplant, tahini, yogurt, garlic, lemon",Syrian
+Muscle Gain,Dinner,Hindbeh (Dandelion greens with onion and olive oil),370,10,22,26,"dandelion greens, onions, olive oil, lemon",Syrian
+Fat Loss,Dinner,Burghul bi banadoura (Bulgur with tomatoes),340,12,48,12,"bulgur, tomato, onion, olive oil",Syrian
+Maintenance,Dinner,Rice with lentils and caramelized onions (Mujaddara),520,18,72,16,"rice, lentils, onions, olive oil",Syrian
+Muscle Gain,Dinner,Chicken musakhan (Sumac chicken with onions),660,44,58,30,"chicken, sumac, onions, taboon bread",Syrian
+Endurance,Dinner,Samakeh harrah (Spicy fish with cilantro and garlic),540,46,14,30,"white fish, cilantro, garlic, chili, spices",Syrian
+Fat Loss,Dinner,Sayyadiet samak (Fish rice with tahini),490,38,48,18,"fish, rice, tahini, onions, spices",Syrian
+Maintenance,Dinner,Kafta bil tahini (Meatballs in tahini sauce),630,34,26,40,"minced meat, tahini, potatoes, pine nuts",Syrian
+Muscle Gain,Dinner,Kibbeh meshwiyeh (Grilled kibbeh),580,36,32,32,"bulgur, minced meat, walnuts, spices",Syrian
+Fat Loss,Snack,Jazaraj (Carrot and pistachio dessert - light),220,4,38,6,"carrots, pistachios, orange blossom water",Syrian
+Maintenance,Snack,Helwet el jibn (Cheese rolls with semolina),350,10,48,14,"mozzarella, semolina, sugar, rose water",Syrian
+Endurance,Snack,Awamat (Syrian doughnuts - baked version),280,6,44,10,"dough, sugar syrup, saffron, rose water",Syrian
+Muscle Gain,Breakfast,Labneh makbouse (Strained yogurt with thyme),400,20,24,24,"labneh, zaatar, olive oil, bread",Syrian
+Fat Loss,Breakfast,Egg with awarma and bread,380,26,14,24,"eggs, awarma (preserved meat), bread",Syrian
+Maintenance,Breakfast,Ka'ak bel jibn (Cheese ka'ak),450,18,50,18,"ka'ak bread, akkawi cheese, nigella seeds",Syrian
+Muscle Gain,Lunch,Bamieh bzeit (Okra with olive oil and meat),680,34,28,44,"okra, lamb, olive oil, coriander, garlic",Syrian
+Fat Loss,Lunch,Kousa bil laban (Zucchini in yogurt sauce),500,24,32,28,"zucchini, yogurt, mint, garlic, rice",Syrian
+Maintenance,Lunch,Flayfeleh (Bell peppers stuffed with rice and meat),590,30,56,24,"bell peppers, rice, minced meat, tomato",Syrian
+Muscle Gain,Lunch,Mahshi malfouf (Stuffed cabbage rolls),640,32,56,28,"cabbage, rice, meat, tomato, garlic",Syrian
+Endurance,Lunch,Ruz mufalfal (Spiced rice with chicken and nuts),680,38,74,22,"rice, chicken, nuts, cinnamon, cardamom",Syrian
+Fat Loss,Dinner,Battenjan mkhalay (Eggplant with chickpeas and tomato),400,14,34,22,"eggplant, chickpeas, tomato, garlic",Syrian
+Maintenance,Dinner,Foul m7ammas with tahini and egg,480,26,34,24,"fava beans, tahini, egg, garlic, lemon",Syrian
+Muscle Gain,Dinner,Kibbeh maqliyeh (Fried kibbeh with yogurt),620,34,44,34,"kibbeh, yogurt, mint, garlic",Syrian
+Fat Loss,Snack,Makdous (Stuffed baby eggplant),190,4,12,14,"baby eggplant, walnuts, red pepper, garlic, olive oil",Syrian
+Maintenance,Snack,Sfiha bil laban (Meat pies with yogurt),360,20,28,18,"dough, minced meat, pine nuts, yogurt",Syrian
+Endurance,Breakfast,Qawarma bi beid (Eggs with preserved meat),440,28,12,30,"eggs, awarma (preserved meat), butter",Syrian
+Muscle Gain,Lunch,Mujaddara hamra (Red lentil mujaddara),610,28,76,18,"red lentils, rice, caramelized onions",Syrian
+Fat Loss,Lunch,Burghul bi lahme (Bulgur with meat and chickpeas),550,34,54,22,"bulgur, minced meat, chickpeas, tomato",Syrian
+Maintenance,Dinner,Salatet fattoush (Classic fattoush),290,6,32,16,"lettuce, cucumber, tomato, radish, pita, sumac",Syrian
+Muscle Gain,Dinner,Halabi kebabs (Aleppo style kebabs),690,48,28,38,"minced meat, parsley, onions, walnuts, pomegranate molasses",Syrian
+Endurance,Lunch,Sheikh al-mehshi (Stuffed eggplant with meat and rice),710,38,58,34,"eggplant, meat, rice, tomato, pine nuts",Syrian
+Fat Loss,Lunch,Mloukhiyeh bzeit (Jew's mallow with olive oil),490,28,36,26,"jew's mallow, chicken, garlic, coriander, olive oil",Syrian
+Maintenance,Breakfast,Khobbeizeh bi laban (Mallow with yogurt),380,20,28,20,"mallow leaves, yogurt, garlic, rice",Syrian
+Muscle Gain,Dinner,Kibbeh karaz (Kibbeh with cherry sauce),650,36,62,28,"kibbeh, sour cherries, pomegranate molasses, sugar",Syrian
+Fat Loss,Snack,Jawziyeh (Walnut and date rolls),210,6,28,10,"walnuts, dates, orange blossom water",Syrian
+Endurance,Dinner,Samak bil tahini (Fish with tahini sauce),540,48,16,30,"white fish, tahini, lemon, garlic, pine nuts",Syrian
+Maintenance,Lunch,Kousa b'jibn (Zucchini with cheese),560,24,38,30,"zucchini, akkawi cheese, milk, butter",Syrian
+Muscle Gain,Breakfast,Foul shami (Damascus style fava beans),460,22,42,20,"fava beans, chickpeas, tahini, lemon, cumin",Syrian
+Fat Loss,Dinner,Salatet jazar (Carrot salad with yogurt and garlic),210,6,18,12,"carrots, yogurt, garlic, walnuts",Syrian
+Maintenance,Snack,Maakaroon bil jibn (Pasta with cheese - Syrian style),430,16,50,18,"pasta, akkawi cheese, milk, butter",Syrian
+Muscle Gain,Lunch,Mansaf shami (Syrian mansaf with lamb and yogurt),780,46,66,38,"lamb, rice, jameed yogurt, almonds",Syrian
+Endurance,Breakfast,Laban awarma (Yogurt with preserved meat),430,28,18,26,"yogurt, awarma, mint, garlic",Syrian
+Fat Loss,Lunch,Kousa b'zeit (Zucchini with olive oil  no meat),390,8,32,24,"zucchini, olive oil, tomato, garlic",Syrian
+Maintenance,Dinner,Fattet baingan (Eggplant fatteh),520,18,48,28,"eggplant, bread, yogurt, tahini, garlic",Syrian
+Muscle Gain,Snack,Kibbeh saniyeh bites (Mini tray kibbeh),310,20,26,16,"bulgur, minced meat, onions, spices",Syrian

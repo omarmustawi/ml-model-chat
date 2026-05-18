@@ -59,7 +59,14 @@ def nutrition_score(frame, goal=None, workout=None):
 
 
 
-def recommend_meals(query, top_n=5, goal=None, meal_type=None, exclude_names=None):
+def recommend_meals(
+        query, 
+        top_n=5, 
+        goal=None, 
+        meal_type=None, 
+        workout=None,
+        exclude_names=None
+    ):
     if exclude_names is None:
         exclude_names = set()
     else:

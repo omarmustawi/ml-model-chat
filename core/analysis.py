@@ -29,7 +29,7 @@ def format_substitutes_colloquial(meal_name, substitutes_df):
         lines.append(
             f"{i}) **{row['Name']}** — {row['Calories']} calories "
             f"protein: {row['ProteinContent']}g, carbohydrates: {row['CarbohydrateContent']}g, fat: {row['FatContent']}g. "
-            f"[type: {row['Meal Type']}]"
+            f"type Meal: {row['Meal Type']}"
         )
 
     lines.append(
@@ -111,34 +111,177 @@ def substitute_meal(meal_name, top_n=5, style="structured"):
     return result
 
 
+# def compare_meals(meal_a, meal_b, goal=None):
+#     row_a = get_meal_row(meal_a)
+#     row_b = get_meal_row(meal_b)
+
+#     if row_a is None or row_b is None:
+#         return {"error": "One or both meals were not found."}
+
+#     goal = goal or "maintenance"
+
+#     df_pair = pd.DataFrame([row_a, row_b]).copy()
+#     df_pair["nutrition_score"] = nutrition_score(df_pair, goal=goal)
+
+#     winner_idx = df_pair["nutrition_score"].idxmax()
+#     winner = df_pair.loc[winner_idx, "Name"]
+
+#     return {
+#         "meal_a": row_a[
+#             ["Name", "Calories", "ProteinContent", "CarbohydrateContent", "FatContent"]
+#         ].to_dict(),
+#         "meal_b": row_b[
+#             ["Name", "Calories", "ProteinContent", "CarbohydrateContent", "FatContent"]
+#         ].to_dict(),
+#         "goal": goal,
+#         "winner_for_goal": winner,
+#     }
+
+
+
 def compare_meals(meal_a, meal_b, goal=None):
-    # print(f"Comparing '{meal_a}' vs '{meal_b}' for goal: {goal}")
+
     row_a = get_meal_row(meal_a)
     row_b = get_meal_row(meal_b)
-    # print("Row A:", row_a["Name"] if row_a is not None else "Not found")
-    # print("Row B:", row_b["Name"] if row_b is not None else "Not found")
 
     if row_a is None or row_b is None:
-        return {"error": "One or both meals were not found."}
+        return {
+            "error": "One or both meals were not found."
+        }
 
-    goal = goal or "maintenance"
+    # =====================================================
+    # Normalize Goal
+    # =====================================================
+    goal = (goal or "maintenance").lower().strip()
 
-    df_pair = pd.DataFrame([row_a, row_b]).copy()
-    df_pair["nutrition_score"] = nutrition_score(df_pair, goal=goal)
+    # aliases
+    goal_aliases = {
+        "loss fat": "fat_loss",
+        "fat loss": "fat_loss",
+        "lose fat": "fat_loss",
+        "weight loss": "fat_loss",
+        "muscle gain": "muscle_gain",
+        "gain muscle": "muscle_gain",
+        "maintenance": "maintenance",
+    }
 
-    winner_idx = df_pair["nutrition_score"].idxmax()
-    winner = df_pair.loc[winner_idx, "Name"]
+    goal = goal_aliases.get(goal, goal)
 
+    # =====================================================
+    # Goal-based scoring
+    # =====================================================
+    def calculate_score(row, goal):
+
+        calories = row["Calories"]
+        protein = row["ProteinContent"]
+        carbs = row["CarbohydrateContent"]
+        fat = row["FatContent"]
+
+        # -------------------------
+        # Fat Loss
+        # -------------------------
+        if goal == "fat_loss":
+
+            score = (
+                protein * 2.5
+                - calories * 0.035
+                - fat * 1.2
+                - carbs * 0.2
+            )
+
+        # -------------------------
+        # Muscle Gain
+        # -------------------------
+        elif goal == "muscle_gain":
+
+            score = (
+                protein * 3
+                + carbs * 0.8
+                + calories * 0.015
+                - fat * 0.2
+            )
+
+        # -------------------------
+        # Maintenance
+        # -------------------------
+        else:
+
+            score = (
+                protein * 2
+                - fat * 0.4
+                - abs(calories - 600) * 0.02
+            )
+
+        return round(score, 2)
+
+    score_a = calculate_score(row_a, goal)
+    score_b = calculate_score(row_b, goal)
+
+    # =====================================================
+    # Winner
+    # =====================================================
+    if score_a > score_b:
+        winner = row_a["Name"]
+        reason = []
+
+        if row_a["ProteinContent"] > row_b["ProteinContent"]:
+            reason.append("higher protein")
+
+        if row_a["Calories"] < row_b["Calories"]:
+            reason.append("lower calories")
+
+        if row_a["FatContent"] < row_b["FatContent"]:
+            reason.append("lower fat")
+
+    else:
+
+        winner = row_b["Name"]
+        reason = []
+
+        if row_b["ProteinContent"] > row_a["ProteinContent"]:
+            reason.append("higher protein")
+
+        if row_b["Calories"] < row_a["Calories"]:
+            reason.append("lower calories")
+
+        if row_b["FatContent"] < row_a["FatContent"]:
+            reason.append("lower fat")
+
+    # =====================================================
+    # Return
+    # =====================================================
     return {
         "meal_a": row_a[
-            ["Name", "Calories", "ProteinContent", "CarbohydrateContent", "FatContent"]
+            [
+                "Name",
+                "Calories",
+                "ProteinContent",
+                "CarbohydrateContent",
+                "FatContent",
+            ]
         ].to_dict(),
+
         "meal_b": row_b[
-            ["Name", "Calories", "ProteinContent", "CarbohydrateContent", "FatContent"]
+            [
+                "Name",
+                "Calories",
+                "ProteinContent",
+                "CarbohydrateContent",
+                "FatContent",
+            ]
         ].to_dict(),
+
         "goal": goal,
+
+        "meal_a_score": score_a,
+        "meal_b_score": score_b,
+
         "winner_for_goal": winner,
+
+        "winner_reason": reason,
     }
+
+
 
 
 def get_meal_row(meal_name):

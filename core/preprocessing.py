@@ -306,6 +306,3 @@ intent_embeddings = embedder.encode(intent_texts, convert_to_tensor=False)
 profile_vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=1)
 profile_matrix = profile_vectorizer.fit_transform(df["meal_profile"])
 
-
-
-print("end of preprocessing ===================================")

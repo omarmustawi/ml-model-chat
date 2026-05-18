@@ -26,6 +26,7 @@ GOAL_KEYWORDS = {
         "weight loss",
         "lose fat",
         "cutting",
+        "lose weight",
         "تنشيف",
         "رجيم",
         "خسارة وزن",

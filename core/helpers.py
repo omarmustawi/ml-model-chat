@@ -42,19 +42,53 @@ def extract_workout_intent(text):
     return None
 
 
-def find_meal_name_in_text(text, names=None):
+
+
+def find_meal_name_in_text(text, names=None, top_k=5):
     if names is None:
         names = df["Name"].tolist()
+
     text_l = normalize_text(text)
 
-    # exact substring match
-    exact_matches = [name for name in names if normalize_text(name) in text_l]
-    if exact_matches:
-        return exact_matches[0]
+    # remove filler words
+    filler_words = {
+        "analyze", "analyse", "analysis", "show", "check", "tell",
+        "me", "about", "the", "meal", "food", "please", "what", "is", "compare"
+    }
 
-    # fuzzy match
-    match = difflib.get_close_matches(text, names, n=1, cutoff=0.55)
-    return match[0] if match else None
+    words = [
+        w for w in re.findall(r"\w+", text_l)
+        if w not in filler_words
+    ]
+
+    cleaned_text = " ".join(words)
+
+    # 1) exact / partial match
+    exact_matches = [
+        name for name in names
+        if normalize_text(name) in text_l or cleaned_text in normalize_text(name)
+    ]
+
+    if exact_matches:
+        print(f"Exact matches found: {exact_matches}")
+        return exact_matches[:top_k]
+
+    # 2) fuzzy ranking (ALL meals, not single match)
+    scored = []
+
+    for name in names:
+        name_l = normalize_text(name)
+        score = difflib.SequenceMatcher(None, cleaned_text, name_l).ratio()
+        scored.append((name, score))
+
+    scored.sort(key=lambda x: x[1], reverse=True)
+
+    results = [name for name, score in scored[:top_k] if score > 0.5]
+    resultsFull = [name for name, score in scored[:top_k] if score > 0.3]
+
+    print(f"Fuzzy matches found (score > 0.5): {results}")
+    print(f"Fuzzy matches found (score > 0.3): {resultsFull}")
+    return results if len(results) > 0 else resultsFull
 
 
 def is_greeting(text):
@@ -67,11 +101,13 @@ def handle_greeting(intent=None):
     if intent:
         return {
             "intent": intent,
-            "greeting": "Hello, ",
+            # "greeting": "Hello, ",
+            "results": "Hello, ",
         }
     return {
         "intent": "greeting",
-        "greeting": "👋 How can I help you? You can request a meal, meal analysis, or a diet plan.",
+        # "greeting": "👋 How can I help you? You can request a meal, meal analysis, or a diet plan.",
+        "results": "👋 How can I help you? You can request a meal, meal analysis, or a diet plan.",
     }
 
 

@@ -27,7 +27,7 @@ from core.helpers import (
 )
 
 
-from core.recommendation import recommend_meals
+from core.recommendation import recommend_with_feedback
 
 
 from core.feedback_bandit import FeedbackBandit
@@ -115,7 +115,7 @@ profile_vectorizer = TfidfVectorizer(ngram_range=(1, 2), min_df=1)
 profile_matrix = profile_vectorizer.fit_transform(df["meal_profile"])
 
 
-bandit = FeedbackBandit(epsilon=0.15)
+bandit = FeedbackBandit(epsilon=0.1)
 
 memory = ChatMemory()
 
@@ -276,7 +276,15 @@ def chatbot(user_text: str) -> dict[str, Any]:
                 pending_intent="recommend_meal",
             )
 
-        top = recommend_meals(user_text, top_n=1, goal=goal, meal_type=meal_type)
+        # top = recommend_meals(user_text, top_n=1, goal=goal, meal_type=meal_type)
+        top = recommend_with_feedback(
+            user_text,
+            bandit,
+            top_n=1,
+            goal=goal,
+            meal_type=meal_type,
+        )
+
 
         response = {
             "intent": intent,
@@ -304,7 +312,14 @@ def chatbot(user_text: str) -> dict[str, Any]:
                 pending_intent="list_meals",
             )
 
-        top = recommend_meals(user_text, top_n=10, goal=goal, meal_type=meal_type)
+        # top = recommend_meals(user_text, top_n=10, goal=goal, meal_type=meal_type)
+        top = recommend_with_feedback(
+            user_text,
+            bandit,
+            top_n=10,
+            goal=goal,
+            meal_type=meal_type,
+        )
 
         response = {
             "intent": intent,
@@ -317,8 +332,15 @@ def chatbot(user_text: str) -> dict[str, Any]:
         return _save_and_return(response, goal=goal, meal_type=meal_type)
 
     if intent == "pre_workout":
-        top = recommend_meals(
+        # top = recommend_meals(
+        #     user_text,
+        #     top_n=5,
+        #     workout=workout or "pre_workout",
+        #     meal_type=meal_type,
+        # )
+        top = recommend_with_feedback(
             user_text,
+            bandit,
             top_n=5,
             workout=workout or "pre_workout",
             meal_type=meal_type,
@@ -334,7 +356,14 @@ def chatbot(user_text: str) -> dict[str, Any]:
         )
 
     if intent == "post_workout":
-        top = recommend_meals(user_text, top_n=5, meal_type=meal_type)
+        # top = recommend_meals(user_text, top_n=5, meal_type=meal_type)
+        top = recommend_with_feedback(
+            user_text,
+            bandit,
+            top_n=5,
+            workout=workout or "post_workout",
+            meal_type=meal_type,
+        )
 
         response = {"intent": intent, "results": top}
         _attach_greeting(response, greeting_msg)

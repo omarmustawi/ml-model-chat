@@ -114,9 +114,46 @@ def recommend_meals(
 
 
 
-def recommend_with_feedback(query, bandit, top_n=5):
-    recs = recommend_meals(query, top_n=top_n)
-    if recs.empty:
-        return recs
-    chosen = bandit.choose(recs["Name"].tolist())
-    return recs, chosen
+def recommend_with_feedback(query, bandit, top_n=5, goal=None, meal_type=None, workout=None):
+    recs = recommend_meals(query, top_n=top_n, goal=goal, meal_type=meal_type, workout=workout)
+    # if recs.empty:
+    #     return recs
+    # chosen = bandit.choose(recs["Name"].tolist())
+    # print(f"Recommended meals:\n{recs}\nChosen meal: {chosen}")
+    # return recs[recs["Name"] == chosen]
+    return recs
+
+
+# def recommend_with_feedback(query, bandit, top_n=5, goal=None, meal_type=None, workout=None):
+#     candidates = recommend_meals(
+#         query=query,
+#         top_n=20,
+#         goal=goal,
+#         meal_type=meal_type,
+#         workout=workout
+#     )
+
+#     print(f"Candidate meals:\n{candidates}")
+#     print(candidates["Name"].tolist())
+
+
+#     if candidates.empty:
+#         return candidates
+    
+    
+#     candidate_names = candidates["Name"].tolist()
+
+#     selected = []
+
+#     for _ in range(min(top_n, len(candidate_names))):
+#         name = bandit.select(candidate_names)
+        
+#         print(f"Selected meal: {name}")
+
+
+#         selected.append(name)
+#         candidate_names.remove(name)
+
+#     return candidates[
+#         candidates["Name"].isin(selected)
+#     ]

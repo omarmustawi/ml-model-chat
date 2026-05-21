@@ -321,22 +321,22 @@ if not has_memory:
 # ----------------------------
 # عرض الأسئلة السابقة
 # ----------------------------
-st.sidebar.subheader("🕘 Previous Questions")
+# st.sidebar.subheader("🕘 Previous Questions")
 
 # display only the last 10 questions for brevity
-if st.session_state.chat_history:
+# if st.session_state.chat_history:
     # for i, item in enumerate(reversed(st.session_state.chat_history[-10:]), 1):
     #     role = item["role"].capitalize()
     #     text = item["content"]
     #     st.sidebar.markdown(f"{i}. {role}:** {text}")
-    pass
-else:
-    st.sidebar.info("No previous questions")
+#     pass
+# else:
+#     st.sidebar.info("No previous questions")
 
 
 if st.sidebar.button("🗑️ Clear Memory"):
     memory.clear()
-    # st.session_state.chat_history = []
+    st.session_state.chat_history = []
     st.rerun()
 
 
